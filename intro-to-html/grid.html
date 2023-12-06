@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gridpractice</title>
+</head>
+<body style="padding-bottom:100px;
+             padding-top: 60px;
+             padding-left: 100px;">
+    <div style="
+        background-color:black;
+        color: wheat;
+        position: fixed;
+        top: 0px;
+        right: 0;
+        left: 0px;
+        height: 40px;
+        ">header</div>
+
+        <div style="
+        background-color:rgb(143, 188, 171);
+        color: aliceblue;
+        position:fixed;
+        width:70px;
+        left:0;
+        top:40px;
+        bottom: 0;
+       ;">
+        side bar</div>
+
+    <div style="
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns:100px 100px;">
+        <div style="background-color:blue ;">div1</div>
+        <div style="background-color: pink;">div2 <p>text</p> </div>
+    </div>
+
+    <div style="
+     margin-top: 30px;
+    display: grid; 
+    grid-template-columns:100px 100px 300px;">
+        <div style="background-color:rgb(255, 0, 179) ;">div1</div>
+        <div style="background-color: rgb(183, 161, 137);">div2 <p>text</p> </div>
+        <div style="background-color:rgb(61, 103, 114) ;">div3</div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns:100px 1fr;">
+        <div style="background-color:teal ;">div1</div>
+        <div style="background-color: rgb(202, 95, 56);">div2  </div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    ">
+        <div style="background-color:rgb(147, 14, 121); height: 100px; ">div1</div>
+        <div style="background-color: pink;">div2  </div>
+        <div style="background-color: rgb(145, 22, 43);">div3  </div>
+        <div style="background-color:rgb(225, 167, 213); height: 100px; ">div1</div>
+        <div style="background-color: rgb(140, 111, 117);">div2  </div>
+        <div style="background-color: rgb(156, 232, 148);">div3  </div>
+    </div>
+
+    <div style="
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    ">
+        <div style="background-color:rgb(138, 147, 14); height: 100px; width: 150px;">div1</div>
+        <div style="background-color: rgb(176, 66, 38);flex: 1;">div2  </div>
+        <div style="background-color: rgb(151, 225, 245);flex: 2;">div3  </div>
+    </div>
+
+    <div style="
+    margin-top:20px;
+    height: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    ">
+        <div style="background-color:rgb(232, 245, 48);  width: 150px;">div1</div>
+        <div style="background-color: rgb(79, 180, 148);width: 150px;">div2  </div>
+        <div style="background-color: rgb(163, 135, 218);width: 150px;">div3  </div>
+    </div>
+
+    <div style="
+    margin-top:20px;
+    height: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    ">
+        <div style="background-color:rgb(255, 12, 12);  width: 150px;">div1</div>
+        <div style="background-color: rgb(18, 164, 238);width: 150px;">div2  </div>
+        <div style="background-color: rgb(143, 73, 143);width: 150px;">div3  </div>
+    </div>
+
+    <div style="
+    margin-top:20px;
+    height: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    ">
+        <div style="background-color:rgb(232, 245, 48);  width: 150px;">div1</div>
+        <div style="background-color: rgb(180, 79, 173);width: 150px;">div2  </div>
+        <div style="background-color: rgb(221, 29, 29);width: 150px;">div3  </div>
+    </div>
+</body>
+</html>

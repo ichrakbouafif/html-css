@@ -1,0 +1,49 @@
+header{
+    height: 150px;
+    background-color: #CCCC99;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+.logo img {
+    float: left;
+    margin-left: 100px ;
+}
+.section1 {
+    background-color: #CCFFFF;
+    display: inline-block; 
+    width: 550px;
+    float: left;
+    height: 300px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+.section2{
+    background-color: #33CCFF;
+    display: inline-block;
+     width: 850px;
+    height: 300px;
+    float: right;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+table ,th ,td ,tr {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.elm {
+    display: block;
+}
+footer {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+
+    border: 1px solid black;
+
+}
+

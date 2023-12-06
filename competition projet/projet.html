@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div class="container">
+        <link rel="stylesheet" href="projet.css">
+        <link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+        <title>form</title>
+
+       
+</head>
+<body>
+    <div class="container">
+        <h1 id="title" >freeCodeCamp Survey Form</h1>
+        <p class="text1">
+          Thank you for taking the time to help us improve the platform
+        </p>
+    </head>
+      <form >
+        <div class="design">
+          <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" id="name" class="design2" placeholder="Enter your name"/>
+            
+        </div>
+        <div class="design" >
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="design2" placeholder="Enter your Email" required />
+           
+        </div>
+        <div class="design" >
+          <label id="number-label" for="number" >  Age<span class="clue">(optional)</span></label>
+          <input type="number" name="age" id="age" class="design2" placeholder="Age" required/>
+        </div>
+
+        <div class="design" >
+          <p>Which option best describes your current role?</p>
+          <select id="option" name="role" class="design2" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+    
+        <div class="design">
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <label> <input name="choix1" value="definetely" type="radio" class="design3" checked/>Definitely</label>  
+          <label> <input name="choix2" value="maybe" type="radio" class="design3" />Maybe </label>
+          <label > <input name="choix3" value="not-sure" type="radio" class="design3"> Not sure</label>
+            
+        </div>
+    
+        <div class="design">
+          <p>
+            What is your favorite feature of freeCodeCamp?
+          </p>
+          <select id="preference" name="preference" class="design2" required>
+            <option disabled selected value>Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="openSource">Open Source</option>
+          </select>
+        </div>
+    
+        <div >
+          <p>
+            What would you like to see improved?
+            <span class="design4">(Check all that apply)</span>
+          </p>
+    
+          <label > <input type="checkbox" value="Front-end Projects" name="1" >Front-end Projects</label>
+          <label> <input type="checkbox" value="back-end-projects" name="2" >Back-end Projects</label>
+          <label> <input type="checkbox" value="Data Visualization" name="3" >Data Visualization</label>
+          <label> <input type="checkbox" name="4" class="design3" value="Challenges">Challenges</label>
+          <label ><input name="5" value="open-source-community" type="checkbox" />Open Source Community</label>
+          <label><input name="6"value="gitter-help-rooms" type="checkbox"/>Gitter help rooms</label>
+          <label><input name="7"value="videos"type="checkbox"/>Videos</label>
+          <label><input name="8"value="city-meetups"type="checkbox"/>City Meetups</label>
+          <label><input name="9"value="wiki"type="checkbox"/>Wiki</label>
+          <label><input name="10"value="forum"type="checkbox"/>Forum</label>
+          <label><input name="11"value="additional-courses"type="checkbox"/>Additional Courses</label>
+        </div>
+    
+        <div class="design">
+          <p>Any comments or suggestions?</p>
+          <textarea id="comments"class="design5"name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+    
+        <div class="design"><button type="submit" id="submit" class="button">Submit</button></div>
+      </form>
+
+
+    
+</body>
+</html>
+fonts.cdnfonts.com
+Hale
+Hale Dhaouadi

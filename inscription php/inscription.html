@@ -1,0 +1,45 @@
+----------------------INSCRIPTION.HTML
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+</head>
+
+<body>
+<form name="form1" method="post" action="inscription.php">
+<fieldset>
+<legend> Formulaire d'inscription </legend>
+<p>Nom :
+  <input type="text" name="nom" id="nom">
+</p>
+<p>Prénom :
+  <input type="text" name="prenom" id="prenom">
+</p>
+<p>Sexe :
+  <label>
+    <input type="radio" name="sexe" value="homme" id="sexe_0">
+    Homme</label>
+  <label>
+    <input type="radio" name="sexe" value="femme" id="sexe_1">
+    Femme</label>
+  </p>
+<p>Classe :
+  <select name="classe" id="classe" >
+    <option value="1ere">1ère</option>
+    <option value="2eme">2ème</option>
+    <option value="3eme">3ème</option>
+    <option value="4eme">4ème</option>
+  </select>
+  </p>
+<p>
+  <input type="submit" name="inscrire" id="inscrire" value="S'inscrire">
+  <input type="reset" name="annuler" id="annuler" value="Annuler">
+  <br>
+</p>
+
+
+</fieldset>
+</form>
+</body>
+</html>

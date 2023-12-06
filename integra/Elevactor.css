@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+
+*{
+    font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin:0px;
+    color: #000000;
+}
+
+
+html{
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    /* top:10px; left: 200px; right:200px; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    z-index: 2000; 
+    box-shadow: 1px 1px 10px #7E0080;
+    padding: 3px 10px 3px 10px;
+    border-radius: .5rem;
+    background-color: white;     
+}
+.foooter{
+    height: 100vh;
+    background-color: #444444;
+}
+.desc{
+    text-align: center;
+    padding-top: 160px;
+    color: #FFFFFF;
+}
+.desc h1{
+  font-size: 3.5rem;  
+  font-weight: lighter;
+  margin-bottom: 10px;
+
+}
+.desc p{
+    font-size:1.1rem;
+    font-weight: lighter;
+}
+.navbar{
+    padding-top:25px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    float: right;
+
+
+}
+.navbar ul li {margin: 30px;}
+ 
+header:hover{
+  position: fixed;
+  /* top:500px; left: 400px; */
+  display: flex;
+  align-items:center;
+  z-index: 2000;
+  box-shadow: 1px 1px 10px #7E0080;
+  padding: 3px 10px 3px 10px;
+  border-radius: .5rem;
+  background-color: white;     
+}
+
+header .logo{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size:20px;
+    font-weight: bolder;
+    color:  #7E0080;
+}
+
+header .logo i{
+    color:rgb(146, 20, 137);
+}
+
+header .navbar a{
+    font-size: 50px;
+    color:  #7E0080;
+}
+
+
+#menu-bar{
+    font-size: .5rem;
+    cursor: pointer;
+    color: #7E0080;
+    border:.1rem solid  #7E0080;
+    border-radius: .3rem;
+    display: flex;
+  }
+  
+ 
+
+section{
+    padding: 1.75em 6rem;
+}
+
+.About{
+    padding: 6rem 6rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; 
+}
+
+.About .description{
+    color:  #7E0080;
+    margin-top: 200px;
+  
+}
+
+.About .Elevactor_logo img{
+    height: 20rem;
+    width: 20rem;
+    flex:1;  
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+
+.About .description h3{
+    padding: 3rem 1rem;
+    font-size: 2.5rem;
+    color:  #7E0080;
+}
+
+ 
+.read{
+    display: inline-block ;
+    border: solid;
+    color: #7E0080;
+    margin: 20px;
+    padding: 7px 5px;
+    border-radius: 5px;
+    position:relative;  
+    overflow: hidden;  
+}
+
+.read::before{
+    content: '';
+    background-color:  #ec37d4;
+    position: absolute; 
+    left: 0;top: 0;
+    width: 100%;  
+    height: 0%;
+    transition: height .3s linear;
+    z-index: -5; 
+}
+.read:hover::before{
+    height:100%; 
+}
+
+.read:hover{
+    color: #7E0080;
+    border: solid  #7E0080;
+}
+
+
+.Products-header{
+    text-align: center;
+    padding: 2rem 1rem 2rem 1rem;
+    font-size: 2.5rem;
+    color:  #7E0080;
+}
+
+
+.Products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-content: center;
+    width: 60%;
+    position: absolute;
+    left: 20%; 
+    padding: 0 0 2rem 0;
+
+}
+
+.Products .box-container .box{
+    flex:1 1 40% ;
+    height: 20rem;
+    position: relative; 
+    overflow: hidden;
+    box-shadow: .2rem .2rem 1rem rgb(0, 0, 0);
+    border: .1rem solid  #7E0080;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.Products .box-container .box .image{
+    height: 50%;
+    width: 70%;
+    position: absolute; 
+   margin-left: -160px;
+   justify-content: center;
+
+    /* top:-100%; left:0;  */
+}
+
+.Products .box-container .box .content{
+    text-align: center;
+    padding:2rem;
+  }
+  .photo{
+
+  }
+ 
+.Products .box-container .box .content h3{
+    font-size: 1.5rem;
+    color: #7E0080;
+}
+  
+.Products .box-container .box .content p{
+    font-size: 1rem;
+    color: #000000;
+    padding:1rem 0;
+}
+  
+.Products .box-container .box:hover{
+    background-image: url("Photos/Order_the_words.png");
+}
+   
+

@@ -1,0 +1,30 @@
+*{
+    font-size: 30px;
+}
+.part1 {
+    background-color: lightcoral;
+    margin-bottom: 20px;
+    border-style: solid;
+    list-style-position: inside;
+    margin-top: 30px ;
+}
+.part2{
+    background-color: rgb(210, 204, 133);
+    border-style: solid;
+}
+.section2 {
+    background-color: aquamarine;
+    width: 150px ;
+    margin-bottom: 80px ;
+    
+}
+h1{ 
+    text-align: center;
+    border-style:groove;
+    text-decoration: underline;
+    width: 200px ;
+    margin-left: 40%;
+}
+.list {
+    list-style-image: url(img.jpg);
+}
